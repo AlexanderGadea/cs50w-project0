@@ -1,0 +1,84 @@
+
+header
+{
+    width: 100%;
+    text-align: center;
+}
+
+nav
+{
+    background: blueviolet;
+    height: 50px;
+    border: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+nav ul li
+{
+    float: left;
+    list-style: none;
+    margin: 10px;
+}
+
+.fix
+{
+    clear: both;
+}
+
+#trol
+{
+    background: blueviolet;
+    height: 50px;
+    border: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.titulo
+{
+    width: 40%;
+    border: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+#Leon-title
+{
+    border: 1px solid white;
+    width: 22%;
+}
+
+#Leon-img
+{
+    float: left;
+    width: 300px;
+}
+
+#ash-img
+{
+    float: left;
+    width: 500px;
+}
+
+#Leo-text
+{
+    margin: 10px;
+    border: 1px solid white;
+    border-bottom: 1px solid white;
+    float: left;
+    width: 70%;
+}
+
+#ash-text
+{
+    margin: 10px;
+    border: 1px solid white;
+    border-bottom: 1px solid white;
+    float: left;
+    width: 59%;
+}
+
+#Ashley-title
+{
+    border: 1px solid white;
+    width: 25%;
+}
+

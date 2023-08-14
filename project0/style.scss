@@ -1,0 +1,87 @@
+$bordes: rgb(74, 110, 158);
+$letra: rgb(87, 19, 100);
+
+@media screen and (max-width: 412px) 
+{
+    @media screen and (max-height: 915px) 
+    {
+        body
+        {
+            background-color: rgb(185, 134, 134);
+        }
+
+        #header-index
+        {
+            text-align: center;
+            color: $letra;
+            border: 3px solid $bordes;
+            width: 70%;
+        }
+
+        .texto
+        {
+            color: beige;
+        }
+
+
+
+        #baner-uni
+        {
+            height: 200px;
+            width: 100%;
+        }
+        #encabezado-uni
+        {
+            text-align: center;
+            color: $letra;
+            border: 3px solid $bordes;
+            width: auto;
+        }
+
+
+
+        #baner-50
+        {
+            width: 100%;
+            align-items: center;
+            border: 4px solid beige;
+        }
+        #header-cs50
+        {
+            text-align: center;
+            color: $letra;
+            border: 3px solid $bordes;
+            width: 20%;
+        }
+    }
+}
+
+#baner-uni
+{
+    height: 400px;
+    width: 100%;
+}
+
+#encabezado-uni
+{
+    text-align: center;
+    color: $letra;
+    border: 3px solid $bordes;
+    width: 40%;
+}
+
+
+
+#baner-50
+{
+    width: 100%;
+    height: 400px;
+}
+
+#header-cs50
+{
+    text-align: center;
+    color: $letra;
+    border: 3px solid $bordes;
+    width: 10%;
+}
